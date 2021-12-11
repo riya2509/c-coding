@@ -21,6 +21,6 @@ array[j+1]=swap;
 } 
 printf("Sorted Array: "); 
 for(i = 0; i < n; i++)
-printf("%dn", array[i]);
+printf("%d", array[i]);
 return 0;
 }
