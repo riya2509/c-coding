@@ -1,21 +1,31 @@
 #include <stdio.h>
-//#include <conio.h>
-void main()
+
+int main()
 {
- int a[5][5],i,j,max=0;
-// clrscr();
- printf("Enter any 5x5 matrix= ");
- for(i=0;i<=4;i++)
-  {
-   for(j=0;j<=4;j++)
-    scanf("%d",&a[i][j]);
-   printf("\n");
-  }
-max=a[0][0];
-for(i=0;i<=4;i++)
-   for(j=i+1;j<=4;j++)
-    if(max<a[i][j])
-     max=a[i][j];
-printf("Max. value in Matrix is = %d",max);
-//getch();
+    printf("Enter 25 elements : ");
+    int c=1;
+    int a[5][5];
+    int i , j , k;
+    for(i=0;i<5;i++)
+    {
+        for(j=0;j<5;j++)
+        {
+            printf("%d. ",c++);
+            scanf("%d",&a[i][j]);
+        }
+    }  
+    
+int max=a[0][0];
+for(i=0;i<5;i++)
+    {
+        for(j=0;j<5;j++)
+        {
+            printf("%d\t",a[i][j]);
+            if(a[i][j]>max)
+            max=a[i][j];
+        }
+        printf("\n");
+    }  
+    printf("The largest element in the matrix is : %d",max);
+    return 0;
 }
