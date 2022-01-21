@@ -31,8 +31,8 @@ int main(){
 		thing[i].totalAmount=(float)thing[i].quantity*thing[i].price;
 		expenses += thing[i].totalAmount;
 
-		i++;	//increase loop counter
-		count++;//increase record counter
+		i++;	//increasing loop counter
+		count++;//increasing record counter
 		
 		printf("\nWant to take more items (press 1): ");
 		scanf("%d",&choice);
@@ -41,7 +41,7 @@ int main(){
 		
 	}while(choice==1);
 	
-	//print all items
+	//printing all items
 	printf("All details are:\n");
 	for(i=0; i<count; i++)
 	{
