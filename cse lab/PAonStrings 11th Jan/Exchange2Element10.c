@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-char *names[]={"bella","riya","dolly","fenny","abhi"};
+char *names[]={"bella","Riya","dolly","fenny","abhi"};
 char *temp;
 printf("original :%s %s ",names[1],names[3]);
 temp=names [1];
