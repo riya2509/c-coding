@@ -2,7 +2,7 @@
 #include<string.h>
 void main()
 {
-char masterlist [6][10]={"riya","emily","john","emma","fenny","dolly"};
+char masterlist [6][10]={"Riya","emily","john","emma","fenny","dolly"};
 int i, flag, a;
 char yourname [10];
 printf("Enter your name : ");
