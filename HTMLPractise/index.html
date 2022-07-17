@@ -1,46 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>   
+
+<body>
     <h1> Hi there welcome to <u>Riya's</u> restuarant.</h1>
-    <p> You may add to cart the items you want <br>Purchase by clicking the food items.</br> </p>
-    <i><h3><b>The below food items are as follows :</b></h3> </i>
-    <ul><li><h4>Paneer</h4></li>
-        <button type="add">Add</button>
-    <li><h4>Mushroom</h4></li>
-    <button type="add">Add</button>
-<li><h4>Tomato Curry</h4></li>
-<button type="add">Add</button>
-<li><h4>Roti</h4></li>
-<button type="add">Add</button>
-<li><h4>Brinjal Curry</h4></li>
-<button type="add">Add</button>
- </ul>
- <i><h3> The date you want to recieve your order:</h3></i>
-<input type = "date">
-<p> Provide us with the below details to confirm your order:</p>
-<form action = "" method="post">
-<label for = "name"> Name:</label>
-<input type = "text" placeholder="Your Name">
-<label for= "adress">Adress:</label>
-<input type= "text" placeholder= "Your Permanent adress"><br>
-<label for="email">Email:</label>
-<input type="email" placeholder="Your Email adress">
-<label for="number">Phone Number:</label>
-<input type="number" placeholder="Your phone number"><br>
-<button type="reset">Reset</button>
-<button type="submit">Order</button>
-</form>
-
-<style>  
-
-</style>
-
+    <p> You may add to cart the items you want. <br>Purchase by clicking the food items.</br> </p>
+    <i>
+        <h3><b>The below food items are as follows :</b></h3>
+    </i>
+    <ul>
+        <li>
+            <h4>Paneer</h4>
+        </li>
+        <form action="" method="post">
+            <button class="add first">Add</button>
+        
+            
+                    <div style="display: flex;flex-direction: row; ">
+                        <h4 style="margin-right: 12px;">Mushroom</h4>
+                        <button class="add">Add</button>
+                    </div>
+            
+                <h4>Mushroom</h4>
+            </li>
+            <button class="add">Add</button>
+            <li>
+                <h4>Tomato Curry</h4>
+            </li>
+            <button class="add">Add</button>
+            <li>
+                <h4>Roti</h4>
+            </li>
+            <button class="add">Add</button>
+            <li>
+                <h4>Brinjal Curry</h4>
+            </li>
+            <button class="add last first">Add</button>
+        </form>
+    </ul>
+    <i>
+        <h3> The date you want to recieve your order:</h3>
+    </i>
+    <input type="date">
+    <p> Provide us with the below details to confirm your order:</p>
+    <form action="" method="post">
+        <label for="name"> Name:</label>
+        <input type="text" placeholder="Your Name">
+        <label for="adress">Adress:</label>
+        <input type="text" placeholder="Your Permanent adress"><br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Your Email adress">
+        <label for="number">Phone Number:</label>
+        <input type="number" placeholder="Your phone number"><br>
+        <button type="reset">Reset</button>
+        <button type="submit">Order</button>
+    </form>
+    <link rel="stylesheet" href="index.css">
 </body>
 
 </html>

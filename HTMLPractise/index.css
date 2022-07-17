@@ -1,0 +1,36 @@
+.outerbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .innerbox {
+    height: 250px;
+    width: 250px;
+    background-color: yellowgreen;
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+.add{
+    background-color: rgb(227, 52, 90);
+    padding: 15px 20px;
+    border: none;
+    border-radius: 15px;
+    color: #fff;  
+}
+
+.first{
+    border: 3px dashed yellowgreen !important;
+}
+.last{
+    cursor: pointer;
+    border: 2px dashed yellow;
+}
+
