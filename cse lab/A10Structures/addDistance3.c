@@ -3,7 +3,7 @@ struct distance
 {   
 int feet;
 float inch;
-}
+};
 main()
 {
 struct distance d1,d2,sum;
