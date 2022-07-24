@@ -10,14 +10,14 @@ struct student
     int rollno;
     float marks;
 };
-void PassBy_value(struct student stu);
+void PassBy_value(struct student stu[] , int n );
 
 void main()
 {
     int i,n;
-    struct student stuarr[n];
     printf("Enter how many records u want to store :: ");
     scanf("%d", &n);
+    struct student stuarr[n] ; 
     printf("Enter name, roll no. and marks Below :: \n");
     for ( i = 0; i < n; i++)
     {
@@ -30,12 +30,12 @@ void main()
         printf("Enter Marks :: ");
         scanf("%f", &stuarr[i].marks);
     }
-    PassBy_value(stuarr[n]);
+    PassBy_value(stuarr , n);
 }
-void PassBy_value(struct student stu)
+void PassBy_value(struct student stu[] , int n )
 {
-    int i, n;
+    int i ;  
     printf("\n\tName\tRollNo\tMarks\t\n");
     for ( i = 0; i < n; i++)
-        printf("\t%s\t%d\t%.2f\t\n", stu.name, stu.rollno, stu.marks);
+        printf("\t%s\t%d\t%.2f\t\n", stu[i].name, stu[i].rollno, stu[i].marks);
 }
