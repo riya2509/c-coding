@@ -2,6 +2,7 @@
 b. Declare a 2d array of size n*n Access the element of it using a pointer.*/
 
 #include <stdio.h>
+
 int main()
 {
 
