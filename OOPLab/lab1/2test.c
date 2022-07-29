@@ -43,4 +43,3 @@ printf("\t Marks: %.1f\n\n",s[k].marks);
 }
 // use bubble sort and sort the array 
 }
-
