@@ -1,35 +1,28 @@
 #include <stdio.h>
-
-int main()
+#include <stdlib.h>
+void main()
 {
-    int n,i,a,b,c=0,d=2;
-
-    printf("Enter size of array: ");
-    scanf("%d",&n);
-    
-    printf("Enter elements of array: ");
-
-    int arr[n];
-    
-    for(i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+    int n, i, a, b, c = 0, d = 2, *p;
+    printf("Enter the number of elements:\n");
+    scanf("%d", &n);
+    p = (int *)malloc(n * sizeof(int));
+    printf("Enter the elements:\n");
+    for (i = 0; i < n; i++)
+    {
+        scanf("%d", &p[i]);
     }
- 
-    printf("\nEnter lower limit element & upper limit element respectively: ");
-    scanf("%d %d",&a,&b);
-
-    for(i=0;i<n;i++){ 
-        if(arr[i]==a || arr[i]==b){
+    printf("Enter lower limit element and upper limit element respectively:\n");
+    scanf("%d %d", &a, &b);
+    for (i = 0; i < n; i++)
+    {
+        if (p[i] == a || p[i] == b)
+        {
             c++;
-            d=0;
+            d = 0;
         }
-        
-        if(arr[i]>a && arr[i]<b){
+        else if (p[i] > a && p[i] < b)
             c++;
-        }
     }
-
-    printf("Number of elements in between two elements (Both Inclusive) = %d",c+d);
-
-    return 0;
+    printf("The number of elements between %d and %d are, both inclusive : %d\n", a, b, c + d);
+    free(p);
 }
