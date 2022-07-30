@@ -1,3 +1,5 @@
+//3. WAP to search an element in a dynamic array of n numbers.
+
 #include <stdio.h>
 #include <stdlib.h>
 int main()

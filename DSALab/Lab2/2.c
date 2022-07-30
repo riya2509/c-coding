@@ -1,3 +1,5 @@
+//2. WAP to reverse the contents of a dynamic array of n elements.
+
 #include <stdio.h>
 #include <stdlib.h>
 void main(){

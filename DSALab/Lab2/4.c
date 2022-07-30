@@ -1,3 +1,6 @@
+/*4. Given an unsorted dynamic array of size n, WAP to find and display the number of
+elements between two elements a and b (both inclusive). range [2&gt;= and &lt;=5]*/
+
 #include <stdio.h>
 #include <stdlib.h>
 void main()

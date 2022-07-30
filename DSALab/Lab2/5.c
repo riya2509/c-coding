@@ -1,3 +1,8 @@
+/*5. Given a dynamic array, WAP to print the next greater element (NGE) for every
+element. The next greater element for an element x is the first greater element on the
+right side of x in array. Elements for which no greater element exist, consider next
+greater element as -1.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

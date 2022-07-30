@@ -1,5 +1,7 @@
 
-// C program to Find the minimum distance between two numbers
+/*1. Given an unsorted dynamic array arr and two numbers x and y, find the minimum
+distance between x and y in arr. The array might also contain duplicates. You may
+assume that both x and y are different and present in arr.*/
 #include <stdio.h>
 #include <stdlib.h> // for abs()
 #include <limits.h> // for INT_MAX
