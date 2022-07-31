@@ -1,3 +1,7 @@
+/*7. Define a structure for representing a point in two-dimensional Cartesian co-ordinate
+system. Now, write a C program to perform the following tasks:
+a. Compute the distance between two given points.*/
+
 #include<stdio.h>
 #include <math.h>
 #include<stdlib.h>

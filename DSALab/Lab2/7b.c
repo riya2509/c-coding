@@ -1,3 +1,7 @@
+/*7. Define a structure for representing a point in two-dimensional Cartesian co-ordinate
+system. Now, write a C program to perform the following tasks:
+b. Compute the area of a triangle, given the co-ordinates of its three vertices.*/
+
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
