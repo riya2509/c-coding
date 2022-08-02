@@ -1,5 +1,6 @@
 print('Write the command "help" to know the steps')
 i=0
+started = False
 help=input(">")
 if help.upper()=='HELP':
    print ('''start-to start the car
@@ -9,17 +10,29 @@ else :
   print("I don't understand that...")
 help=help.upper()
 while i>=0:
+    i+=1
     command=(str)(input(">"))
     command=command.upper()
     if command=='QUIT':
-        print("Car stopped.")
         break
     elif command=='START':
-        print("Car started...ready to go!")
+        if started:
+            print("Car has already started!")
+        else:
+            started=True
+            print("Car started...ready to go!")
     elif command=='STOP':
-        print("Car stopped.")
+        if not started:
+          print("Car has already stopped!")
+        else:
+            started=False
+            print("Car has stopped.")
+    
     else:
         print("I don't understand that...")
+
+    
+
 
 
 
