@@ -62,7 +62,7 @@ struct node *PolyAdd(struct node *p1, struct node *p2, struct node *sum)
         // else adding a new node structure at the end of r to store sum
         else
         {
-            r->next = (struct node *)malloc(sizeof(struct node))
+            r->next = (struct node *)malloc(sizeof(struct node));
                 r = r->next;
         }
         // If exponent of current node of polynomial 1 is greater than that of polynomial 2
