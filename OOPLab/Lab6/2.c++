@@ -1,5 +1,5 @@
 #include<iostream>
-#include<conio>
+#include<conio.h>
 using namespace std;
 class stu{ //First base Class//
 	int id;
