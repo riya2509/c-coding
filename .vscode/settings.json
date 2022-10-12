@@ -4,6 +4,8 @@
     "files.associations": {
         "stdio.h": "c",
         "math.h": "c",
-        "1.C": "cpp"
+        "1.C": "cpp",
+        "iostream": "cpp",
+        "malloc.h": "c"
     }
 }
