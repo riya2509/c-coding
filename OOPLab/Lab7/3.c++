@@ -1,6 +1,6 @@
-#include<iostream>
-#include<stdio.h>
-#include<string.h>
+#include <iostream>
+#include <stdio.h>
+#include <string.h>
 
 using namespace std;
 
@@ -8,8 +8,9 @@ class Bank
 {
         int acno;
         char AccountHolderName[100], Account_Type[100];
-        float bal;  
-   public:
+        float bal;
+
+public:
         Bank(int acc_no, char *name, char *acc_type, float Balance)  //Parameterized Constructor
         {
                 acno=acc_no;
