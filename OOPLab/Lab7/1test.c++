@@ -27,7 +27,8 @@ public:
         cout << " has an area of ";
         cout << x * 0.5 * y << ".\n";
     }
-} class square : public Shape
+};
+class square : public Shape
 {
 public:
     void show_area(void)
@@ -58,7 +59,7 @@ main(void)
     circle c;
 
     p = &t;
-    p->set_dim(10.0, 5.0)
+    p->set_dim(10.0, 5.0);
         p->show_area();
 
     p = &s;
